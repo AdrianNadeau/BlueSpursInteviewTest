@@ -6,12 +6,14 @@ public class SaleProduct {
 	   private String email;
 	   private Double price;
 	   private Double saleprice;
+	   private String location;
 	   
-	   public SaleProduct(String itemName, String itemEmail, double price,  double saleprice) {
+	   public SaleProduct(String itemName, String itemEmail, double price,  double saleprice, String location) {
 	        this.setPrice(price) ;
 	        this.setName(itemName);
 	        this.setEmail(itemEmail);
 	        this.setSaleprice(saleprice);
+	        this.setLocation(location);
 	        
 	    }
 
@@ -45,6 +47,14 @@ public class SaleProduct {
 
 	public void setSaleprice(Double saleprice) {
 		this.saleprice = saleprice;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
 	}
 	   
 
