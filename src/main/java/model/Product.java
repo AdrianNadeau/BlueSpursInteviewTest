@@ -1,4 +1,4 @@
-package com.bluespurs.starterkit.controller;
+package model;
 
 public class Product {
 	   private String name;
@@ -47,4 +47,6 @@ public class Product {
 	public void setLocation(String location) {
 		this.location = location;
 	}
-	}
+
+
+}
