@@ -14,7 +14,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 @EnableCaching
 public class ApplicationConfig extends SpringBootServletInitializer {
     @Value("${http.enable-cors}")
-    private boolean enableCors;
+    private boolean enableCors; 
     @Value("${base-package}")
     private String basePackage;
 

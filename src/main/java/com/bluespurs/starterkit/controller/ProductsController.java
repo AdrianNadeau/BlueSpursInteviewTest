@@ -67,14 +67,16 @@ public class ProductsController {
 				return new ResponseEntity<>(walmartProduct, HttpStatus.OK);
 				
 			}
-			
-			
 		}
-
 		catch (Exception ex) {
 			// return "error: "+ex;
 			return new ResponseEntity<>("Error", HttpStatus.BAD_REQUEST);
 		}
+		
+		//@RequestMapping(value = "/alert/", method = RequestMethod.POST)
+//		public void checkProduct() throws ParseException {
+//		}
+		
 		//TODO: add method to return 
 
 	}
