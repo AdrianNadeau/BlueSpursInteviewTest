@@ -29,7 +29,7 @@ import model.SaleProduct;
 @RestController
 @RequestMapping(value = "/products")
 public class ProductsController {
-	// product and sale product objects
+	// product and sale product objects...
 	Product bestBuyProduct;
 	Product walmartProduct;
 
